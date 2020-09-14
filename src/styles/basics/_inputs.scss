@@ -1,0 +1,20 @@
+input,
+textarea {
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 31px;
+    line-height: 19px;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 30px;
+    transition: width 0.15s;
+    // width: 180px;
+    resize: none;
+
+    &::placeholder {
+        font-family: $basic-font;
+        font-size: 0.9rem;
+    }
+}

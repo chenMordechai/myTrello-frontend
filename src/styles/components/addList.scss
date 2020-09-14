@@ -1,0 +1,60 @@
+.add-list {
+   
+    .add-list-close {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        min-width: 272px;
+        border-radius: 3px;
+        background-color:  #ffffff52;
+        margin-right: 8px;
+        margin-left: 4px;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #ffffff3d;
+        }
+        
+        &:hover button {
+            background-color: rgba(255, 255, 255, 0);
+        }
+        button {
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0);
+            width: 260px;
+            justify-content: flex-start;
+            span {
+                color: white;
+                font-weight: 400;
+                margin-left: 6px;
+            }
+        }
+    }
+    .add-list-open{
+        padding: 6px;
+        border-radius: 3px;
+        background-color:#ffffff3d ;
+        min-width: 272px;
+        margin-right: 8px;
+        margin-left: 4px;
+        input{
+            width: 260px;
+        }
+        .btn-container {
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            button {
+                margin: 0;
+                margin-top: 6px;
+                background-color: $green2;
+                font-weight: 400;
+                &:last-child{
+                    background-color: rgba(255, 255, 255, 0);
+                    font-size: 1.3rem;
+                    color: $font-color2;
+                }
+            }
+        }
+    }
+}

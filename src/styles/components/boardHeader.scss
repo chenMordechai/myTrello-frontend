@@ -1,0 +1,68 @@
+.board-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#00000024;
+  color: $text-color;
+  font-family: $logo-font;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+
+  .input-container {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    input{
+      width: 180px;
+    }
+    .search-icon {
+        position: relative;
+        right: 22px;
+        top: 2px;
+    }
+  }
+  .btns-container {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  button {
+    background-color: #ffffff52;
+
+    span {
+      margin-left: 8px;
+    }
+    &.round-btn {
+      font-weight: 700;
+      background-color: $dark-grey2;
+      &:hover {
+        background-color: $dark-grey1;
+      }
+    }
+    &:hover {
+      background-color:  #ffffff42;
+    }
+  }
+  a {
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+  input {
+    background-color: #ffffff52;
+    color: white;
+    margin: 4px 0px 4px 4px;
+  }
+  input:hover {
+    background-color:  #ffffff42;  }
+
+  img:nth-child(3) {
+    margin-right: 10px;
+  }
+}

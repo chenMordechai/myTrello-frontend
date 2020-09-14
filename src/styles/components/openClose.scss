@@ -1,0 +1,19 @@
+.btn-container{
+    margin-top: 6px;
+
+    button {
+        margin: 0;
+        background-color: $green2;
+        font-weight: 400;
+        &:last-child {
+            background-color: rgba(255, 255, 255, 0);
+            font-size: 1.3rem;
+            color: $font-color2;
+            margin: 0;
+            span {
+                font-weight: 700;
+                font-size: 26px;
+            }
+        }
+    }
+}

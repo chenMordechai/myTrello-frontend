@@ -1,0 +1,14 @@
+.boards{
+    position: absolute;
+    top: 39px;
+    background-color: #fff;
+    min-height: calc(100vh - 39px);
+
+    display: flex;
+    flex-direction: row;
+
+    min-width: 100vw;
+    padding-top: 40px;
+
+   
+}

@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $dark-green;
+  padding: 10px;
+  color: $text-color;
+  z-index: 30;
+  .btn-container {
+    display: flex;
+  }
+  a {
+    color: white;
+    font-family: $logo-font;
+
+  }
+  button {
+    margin: 5px;
+    color: $dark-green;
+  }
+  button:first-child {
+    background-color: $dark-green;
+    color: white;
+  }
+  button:first-child:hover {
+    text-decoration: underline;
+  }
+}

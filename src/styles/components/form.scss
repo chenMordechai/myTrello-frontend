@@ -1,0 +1,50 @@
+.form {
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 3px;
+    font-family: $basic-font;
+    padding: 25px;
+    z-index: 50;
+    form {
+        .inputs-container {
+            width: 320px;
+            input {
+                width: 320px;
+                height: 44px;
+                border: 1px solid $dark-grey2;
+                margin-bottom: 20px;
+            }
+        }
+        button {
+            background-color: $green;
+            margin: 0;
+            margin-bottom: 20px;
+            
+        }
+    }
+    span {
+        position: absolute;
+        top: 8px;
+        right: 13px;
+        cursor: pointer;
+    }
+    h2 {
+        margin: 5px;
+        margin-bottom: 25px;
+        font-size: 1.2rem;
+    }
+    a {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+        color: rgb(71, 71, 248);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.add-board {
+    // background-color: #ffffff;
+    position: absolute;
+    top: 77px;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 3px;
+    font-family: $basic-font;
+    // padding: 25px;
+    z-index: 50;
+    
+    .main-container {
+        display: flex;
+        align-items: center;
+        
+        .board {
+            background-position: 50%;
+            background-size: cover;
+            width: 296px;
+            height: 100px;
+            // background-color: yellow;
+            border-radius: 3px;
+            margin-right: 7px;
+            padding: 10px;
+            .header-container {
+                text-align: left;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                input{
+                    font-size: 1rem;
+                    font-weight: 700;
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0);
+                    &::placeholder{
+                        // font-family: $basic-font;
+                        // font-size: 1rem;
+                        color: rgba(255, 255, 255, 0.829);
+                    }
+                    &:focus{
+                        background-color: rgba(255, 255, 255, 0.377);
+                        outline: auto 1px black;
+                    }
+                }
+                span {
+                    margin-right: 2px;
+                    align-self: start;
+                    color: white;
+                    cursor: pointer;
+                }
+                .board-name{
+                    font-weight: 700;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 3px;
+                    &:hover{
+                        background-color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .btn-container{
+        display: flex;
+        button{
+            background-color: $green2;
+            font-weight: 400;
+            margin-right: 14px;
+            margin-left: 0;
+            &:last-child{
+                background-color: rgba(253, 253, 253, 0);
+            }
+            span{
+                margin-left: 8px;
+            }
+        }
+    }
+}

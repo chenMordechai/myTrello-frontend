@@ -1,0 +1,49 @@
+.card-desc-close{
+    textarea {
+        margin: 15px 0 30px 32px;
+        width: 93%;
+        min-height: 53px;
+        background-color: $bright-grey;
+        padding: 10px;
+        &:hover {
+            background-color: #00000011;
+        }
+        &::placeholder {
+            color: $font-color;
+        }
+    }
+    
+}
+.card-desc-open{
+    textarea {
+        margin: 15px 0 0 32px;
+        width: 93%;
+        min-height: 100px;
+        background-color: white;
+        padding: 10px;
+        
+        &::placeholder {
+            color: $font-color;
+        }
+        &:focus{
+            border: 2px solid #026aa7;
+        }
+    }
+    button {
+        margin-left: 32px;
+        margin-top: 6px;
+        background-color: $green2;
+        font-weight: 400;
+        &:last-child {
+            background-color: rgba(255, 255, 255, 0);
+            font-size: 1.3rem;
+            color: $font-color2;
+            margin: 0;
+            span {
+                font-weight: 700;
+                font-size: 26px;
+            }
+        }
+    }
+    
+}

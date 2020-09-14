@@ -1,0 +1,55 @@
+.add-card {
+    .add-card-close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+            background-color: unset;
+            &:first-child {
+                min-width: 220px;
+                justify-content: left;
+                h3 {
+                    color: $font-color2;
+                    font-weight: 400;
+                    margin-left: 6px;
+                    font-size: 0.9rem;
+                }
+            }
+            &:hover {
+                background-color: #00000011;
+            }
+        }
+    }
+    .add-card-open {
+        textarea {
+            height: 66px;
+            width: 256px;
+            box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+        }
+        .btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .btn-sec-container {
+                display: flex;
+                align-items: center;
+            }
+            button {
+                margin: 0;
+                margin-top: 6px;
+                background-color: $green2;
+                font-weight: 400;
+                &:last-child {
+                    background-color: rgba(255, 255, 255, 0);
+                    font-size: 1.3rem;
+                    color: $font-color2;
+                    margin: 0;
+                    span {
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}

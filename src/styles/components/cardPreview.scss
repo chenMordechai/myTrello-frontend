@@ -1,0 +1,32 @@
+.card-preview {
+    background-color: white;
+    margin: 0px 2px 8px 2px;
+    border-radius: 3px;
+    padding: 7px 8px;
+    font-weight: 400;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 33px;
+    &:hover {
+        background-color: $bright-grey2;
+    }
+
+    &:hover button::after {
+        content: "🖉";
+        //    content:'✎'
+        //    content:'🖊️'
+        //    content:'🖊'
+    }
+    button {
+        position: relative;
+        left: 6px;
+        height: 29px;
+        background-color: unset;
+        color: $font-color2;
+        &:hover {
+            background-color: $bright-grey;
+        }
+    }
+}

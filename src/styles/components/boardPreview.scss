@@ -1,0 +1,19 @@
+a.board-preview {
+    background-position: 50%;
+    background-size: cover;
+    width: 155px;
+    height: 97px;
+    background-color: $dark-green;
+    border-radius: 3px;
+    margin: 10px 10px 0 0px;
+    font-family: $basic-font;
+    padding: 0px 10px;
+    span {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    &:hover {
+        background-color: $dark-green2;
+    }
+}
